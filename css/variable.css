@@ -151,12 +151,13 @@
 	/* |||||||\\\\\    header.||||||\\\\\\\\\\\\ */
 
 	.headercs {
-		padding: 2rem;
+		padding:0 4rem;
 		height: 11rem;
 		background-color: var(--bg);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		user-select: none;
 	}
 /*
 
@@ -181,17 +182,24 @@ for img logo//////////
 	.navbar-linkcs:visited {
 		display: inline-block;
 		text-decoration: none;
-		font-size: 2.4rem;
-		font-weight: 500;
+		font-size: 2.7rem;
+		font-weight: bold;
 		text-transform: uppercase;
 		color: var(--black);
-		transition: 0.5s linear;
-		cursor: pointer;
+		transition: all 0.3s linear;
+		user-select: none;
+		font-family: Josefin Sans;
 	}
 
 	.navbar-linkcs:hover,
 	.navbar-linkcs:active {
-		color: var(--helper);
+		color: var(--clr);
+		font-weight: bold;
+		cursor: pointer;
+		transform: translateY(-.04rem),
+		translateX(.04rem);
+		text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+		
 	}
 
 	.nav-btn {
@@ -460,6 +468,13 @@ for image loogo/////////////
 			user-select: none;
 
 		}
+
+.navbar-linkcs:hover{
+  transform: translateX(5px);
+}
+
+
+
 
 
 		.navbarcs .nav-btn-remove {
