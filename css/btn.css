@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+);
+
+
+
+
+
+.logo{
+	padding: 10px 0 0 10px;
+	color: Var(--heading);
+	font-size: 6rem;
+	letter-spacing: 1px;
+	cursor: pointer;
+	font-family: Josefin Sans;
+	font-weight:bold;
+	text-shadow: 2px 6px 9px rgba(1, 1, 2, 0.2);
+}
+
+
+/*
+.hero-btn .btncs {
+	display: inline-block;
+	
+	
+}
+
+
+.btncs {
+	padding: 15px 30px;
+	border-radius: 30px;
+	
+	text-transform: capitalize;
+	text-decoration: none;
+	
+	text-align: center;
+	
+	transition: all 0.3s ;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+
+}
+
+.btncs:hover {
+	box-shadow: 0px 20px 20px 0px rgb(132 144 255 / 30%);
+	color: rgb(255 255 255);
+	cursor: pointer;
+	transform: translateY(-3px);
+}
+
+.btncs-white{
+	background: var(--clr);
+	font-family: curier prime;
+	color: var(--helper-tint);
+	font-size: 2.3rem;
+	font-weight: bold;
+}
+
+*/
+
+
+.bttn:link,
+.bttn:visited {
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 15px 40px;
+	display: inline-block;
+	border-radius: 40px;
+	transition: all .3s;
+	height: 49px;
+}
+
+.bttn:hover {
+	transform: translateY(-3px);
+	color: rgb(255 255 255);
+	cursor: pointer;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bttn:active {
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bttn-white {
+	background-color: var(--clr);
+	color: var(--para-tint);
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Josefin Sans;
+}
+
+.bttn-animated {
+	animation: moveInBottom 5s ease-out;
+	animation-fill-mode: backwards;
+}
+
+
