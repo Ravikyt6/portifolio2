@@ -105,6 +105,8 @@
 
 	.section {
 		padding: 7rem 0;
+		border: none;
+		width:100%;
 	}
 
 
@@ -464,8 +466,9 @@ for image loogo/////////////
 			z-index: 9999;
 			overflow-x: hidden;
 			transition: 0.5s linear;
-			background: var(--gradientSupport2);
+			background: var(--para-tint);
 			user-select: none;
+			border: none;
 
 		}
 
